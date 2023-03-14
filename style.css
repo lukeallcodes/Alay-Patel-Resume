@@ -1,124 +1,97 @@
-body {
-  background-color: #fff;
-  color: #333;
-  font-family: Arial, sans-serif;
+/* Reset default browser styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-/* Heading styles */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-  font-size: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
 }
 
 h2 {
-  font-size: 2.5rem;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
 }
 
 h3 {
-  font-size: 2rem;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
 }
 
-/* Link styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Links */
 a {
-  color: #0077be;
-  text-decoration: none;
+    color: #003366;
+    text-decoration: none;
 }
 
 a:hover {
-  color: #004b8c;
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Section styles */
-section {
-  margin: 2rem 0;
-  padding: 2rem;
-  background-color: #f2f2f2;
-  border-radius: 10px;
-}
+/* Media queries */
+@media only screen and (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
 
-section h3 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-  color: #0077be;
-}
+    section {
+        margin-bottom: 20px;
+    }
 
-/* Article styles */
-article {
-  margin-bottom: 2rem;
-}
+    h2 {
+        font-size: 1.6rem;
+    }
 
-article h3 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
+    h3 {
+        font-size: 1.2rem;
+    }
 
-article h4 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: #0077be;
-}
-
-article p {
-  margin-bottom: 0.5rem;
-}
-
-article ul {
-  margin-bottom: 1rem;
-  padding-left: 1.5rem;
-  list-style-type: disc;
-}
-
-/* Leadership section styles */
-article ul li {
-  margin-bottom: 0.5rem;
-}
-
-/* Skills section styles */
-article ul li:last-child {
-  margin-bottom: 0;
-}
-
-/* Blue and yellow color palette */
-body {
-  --primary-color: #0077be;
-  --secondary-color: #ffd166;
-}
-
-section {
-  background-color: var(--secondary-color);
-}
-
-section h3 {
-  color: var(--primary-color);
-}
-
-a {
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: #004b8c;
-}
-
-article h4 {
-  color: var(--primary-color);
-}
-
-article ul {
-  list-style-type: disc;
-  color: #333;
-}
-
-article ul li {
-  color: #333;
-}
-
-article ul li:before {
-  color: var(--primary-color);
+    p {
+        font-size: 1rem;
+    }
 }
