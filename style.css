@@ -1,56 +1,65 @@
-/* Define the blue to yellow gradient */
-body{
+*{
   
-  background-color: #3A98B9;
-  font-family: Calibri;
-  
-}
+    background-color: #3A98B9;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+   
+ }
+ 
+ h1{
+   
+    font-size: 150px;
+    width: 40%;
+    position: fixed;
+    left: 100px;
+    top: 20%;
+    z-index: 1;
+    background: none;
+ }
+ 
+ h2{
+   
+    font-size: 75px;
+    text-align: right;
+    margin-bottom: 0px;
+    
+ }
 
-header{
-  
-  color: white;
-  font-size: 35px;
-  margin-left: 50px;
-  
+#contactinfo{
+    text-align: left;
+    font-size: 25px;
+    width: 50%;
+    position: fixed;
+    left: 100px;
+    top: 68%;
+    z-index: 1;
+    background: none;
+    letter-spacing: 8px;
 }
-
-#containers{
-  
-  background-color: #E8D5C4;
-  border: 5px solid #FFF1DC;
-  border-radius: 5px;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 10px;
-  
-}
-
-h1{
-
-  font-size: 60px;
-
-}
-
-h2{
-  
-  background-color: #3A98B9;
-  width: 500px;
-  border-radius: 5px;
-  padding: 15px;
-  color: white;
-  font-size: 30px;
-  
-  
-}
-footer{
-  
-  background-color: #E8D5C4;
-  border: 5px solid #FFF1DC;
-  border-radius: 5px;
-  padding: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-top: 10px;
-  
-}
+ 
+ .subtext{
+   
+    position: absolute;
+    
+    top: 35%;
+    right: 15px;
+    width: 60%;
+    
+ }
+   
+ ul{
+   
+   text-align: right;
+   list-style-type: none;
+   font-size: 30px;
+   margin-top: 5px;
+   line-height: 200%;
+   
+ }
+ 
+ strong{
+   
+   color: yellow;
+   font-size: 40px;
+   
+ }
